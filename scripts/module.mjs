@@ -7,7 +7,7 @@
 /**
  * Sub Modules
  */
-//import { MyClass } from './modules/my-class.js'
+import { TransferAe } from './modules/transfer-ae.mjs'
 
 /**
  * Sub Apps
@@ -15,8 +15,7 @@
 //import { MyDialog } from './apps/my-dialog.js';
 
 const SUB_MODULES = {
-  //MyLogger,
-  //MyClass
+  TransferAe
 };
 
 const SUB_APPS = {
